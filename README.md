@@ -3,7 +3,8 @@
 ## Interests
 - Machine Learning
 - Data Science
-- Project and resuable open source code development
+- Project and reusable open source code development
+- Algorithm design and problem solving
 - Web development
 - Embedded system development
 

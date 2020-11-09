@@ -1,13 +1,14 @@
-### Hello, this is Imanpal Singh and welcome to my github!
+### Imanpal Singh
+A Programming enthusiast
 
 ## Interests
 - Machine Learning
 - Data Science
+- Generative modelling
 - Project and reusable open source code development
 - Algorithm design and problem solving
 - Web development
 - Embedded system development
-
 
 
 <br />

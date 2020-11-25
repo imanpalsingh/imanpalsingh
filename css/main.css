@@ -27,6 +27,8 @@ body{
     background-color: var(--background);
     color: var(--primaryColor);
     font-family: 'Poppins', sans-serif;
+
+    
 }
 
 
@@ -41,6 +43,8 @@ nav{
     flex-direction: row-reverse;
     background-color: inherit; 
     z-index: 1; 
+    animation: 1s ease-out 0s 1 mastentry;
+    
 }
 
 /* Ids */
@@ -51,6 +55,7 @@ nav{
     margin : 8em 3.8em 3em;
     flex-direction: row;
     justify-content: center;
+
 }
 
 
@@ -60,6 +65,7 @@ nav{
     flex-direction: column;
     justify-content: space-around;
     padding-bottom: 3em;
+    animation: 3s ease-out 0s 1 mastentry;
 }
 
 #work{
@@ -94,6 +100,8 @@ nav{
     background-clip: text;
     -webkit-text-fill-color: transparent;
     transition : background 1s linear 0s;
+    animation: 1s ease-out 0s 1 mastentry;
+    
 }
 
 .contact-details{
@@ -101,7 +109,8 @@ nav{
     margin: 0.3em auto 3em auto;
     display: flex;
     
-    justify-content: space-evenly
+    justify-content: space-evenly;
+    
 }
 
 .cmp-img:hover{
@@ -110,6 +119,8 @@ nav{
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    
+
 }
 
 .contact-ico{
@@ -189,6 +200,7 @@ nav{
     margin-left: 5.5em;
     position: relative;
     max-width: 40%;
+    animation: 2s ease-out 0s 1 mastentry;
     
 }
 
@@ -369,4 +381,14 @@ background: -webkit-gradient(linear, left top, right top,  from(var(--pink)), to
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
 background:var(--purple);
+}
+
+
+@keyframes mastentry {
+    0% {
+        transform: translateY(20%);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }

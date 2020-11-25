@@ -240,6 +240,11 @@ nav{
     padding: 2em;
 }
 
+.rel-git-link{
+
+    position: absolute;
+}
+
 .section-head{
 
     letter-spacing: 0.2em;

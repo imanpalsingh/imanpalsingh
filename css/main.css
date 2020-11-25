@@ -10,6 +10,8 @@
     --blue :  #00B4DB;   
     --brown : #ff9068;
     --pink : #eaafc8;
+    --black : #111;
+    --red : #ff004d;
 }
 
 a{
@@ -61,7 +63,7 @@ nav{
 
 #work{
 
-    background-color: #111;
+    background-color: var(--black);
     display: flex;
     flex-direction: column;
     padding-top: 3em;
@@ -103,7 +105,7 @@ nav{
 
 .cmp-img:hover{
 
-    background: #a162e8;  
+    background: var(--purple);  
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -146,13 +148,13 @@ nav{
 }
 
 .error{
-    color : #ff004d;
+    color : var(--red);
 }
 
 .fcenter{
 
     display: inline-block;
-    border-color: #eaafc8;
+    border-color: var(--pink)
 }
 
 .github-alone{
@@ -179,7 +181,7 @@ nav{
     justify-content: space-around;
     margin: 1.5em 12.0em 0.8em 12.0em;
     font-size: 1.4em;
-    color : #eaafc8;
+    color : var(--pink);
 }
 
 .introtext{
@@ -250,7 +252,7 @@ nav{
     border-right: none; 
     align-self: center;
 
-    border-color: #eaafc8;
+    border-color: var(--pink);
 }
 
 .sgrad1{
@@ -293,7 +295,7 @@ nav{
 
 .viewgithub:hover{
 
-    background-color : #212121;
+    background-color : var(--background);
 
 }
 
@@ -351,5 +353,5 @@ background: -webkit-gradient(linear, left top, right top,  from(var(--pink)), to
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-background:#a162e8;
+background:var(--purple);
 }

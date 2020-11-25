@@ -1,0 +1,341 @@
+:root{
+    
+    --primaryColor : #fff;
+    --primaryColorHighlighted : #14ffec;
+    --background :  #212121;
+    
+}
+
+body{
+
+    margin: 0;
+    padding: 0;
+    background-color: var(--background);
+    color: var(--primaryColor);
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+    color:var(--primaryColor);
+}
+
+/* navigation bar */
+nav{
+    padding-top: 0.4em;
+    display: flex;
+    flex-direction: row-reverse;
+    position: fixed;
+    top: 0px;
+    background-color: inherit; 
+    width: 100%;
+    z-index: 1; 
+}
+
+.navbarlist{
+
+    margin: auto;
+    
+}
+
+.github{
+
+    font-size: 2.0em;
+    margin: 0.6rem 3.2em 0.6em 0.6em;
+}
+
+
+.navbaritem{
+
+    display: inline-block;
+    margin: 0.8em 4em;
+}
+
+.navlink{
+
+    letter-spacing: 0.2em;
+    font-weight: lighter;
+    color : var(--primaryColor);
+}
+
+.link{
+    font-weight: lighter;
+    color : var(--primaryColor);
+}
+
+.github:hover, .navlink:hover, .link:hover{
+
+    color: var(--primaryColorHighlighted);
+}
+#about{
+
+    display: flex;
+    margin : 8em 3.8em 3em;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.introtext{
+
+    margin-left: 5.5em;
+    position: relative;
+    max-width: 40%;
+    
+}
+
+.name{
+
+    font-size: 5.5em;
+    background: -webkit-gradient(linear, right bottom, left top, from(var(--primaryColorHighlighted)), to(#8DC26F));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Sacramento', cursive;
+
+    
+}
+
+.diff1{
+
+    background: -webkit-gradient(linear, left bottom, right top, from(#00B4DB), to(#ff9068));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+.diff2{
+
+    background: -webkit-gradient(linear, left top, right top,  from(#eaafc8), to(#a162e8));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 0.2em;
+}
+
+.cmp-img{
+
+    font-size: 20em;
+    background: -webkit-gradient(linear, left top, left bottom, from(#38ef7d), to(#a162e8));
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition : background 1s linear 0s;
+} 
+
+.github:hover, .navlink:hover{
+
+    color: var(--primaryColorHighlighted);
+}
+
+.cmp-img:hover{
+
+    background: #a162e8;  
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+} 
+
+
+.tagline{
+
+    font-size: 1.4em;
+    text-align: left;
+}
+
+.bio{
+
+    text-align: left;
+}
+
+#skills{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-bottom: 3em;
+}
+
+.skillhead{
+
+    letter-spacing: 0.2em;
+    
+    font-size: 2.6em;
+    color : var(--primaryColorHighlighted);
+    border: 1px solid;
+    border-top : none;
+    border-left: none;
+    border-right: none; 
+    align-self: center;
+    border-color: #eaafc8;
+}
+
+
+.iconholder{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 1.5em 12.0em 0.8em 12.0em;
+    font-size: 1.4em;
+    color : #eaafc8;
+}
+
+.ml{
+
+    font-weight: bold;
+}
+
+#work{
+
+    background-color: #111;
+    display: flex;
+    flex-direction: column;
+    padding-top: 3em;
+}
+
+.worktitle{
+
+    letter-spacing: 0.2em;
+    font-weight: normal;
+}
+
+.workbody{
+
+    background-color: inherit;
+    text-align: center;
+    max-width: 60%;
+    border: 1px solid;
+    border-radius: 0.5em;
+    display: inline-block;
+    align-self: center;
+    padding : 0em 2em 1.5em 2em;
+    margin-top: 2em;
+  
+} 
+
+.workhead{
+
+    font-size: 1.6em;
+    letter-spacing: 0.3em;
+}
+.workdetail{
+
+    text-align: justify;
+}
+
+.viewgithub{
+
+    background-color: inherit;
+    border: 1px solid white;
+    color:inherit;
+    padding : 0.7em;
+    font-size: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    cursor: pointer;
+}
+
+.viewgithub:hover{
+
+    background-color : #212121;
+
+}
+
+.github-button{
+
+    padding-right: 0.3em;
+}
+.learnmore{
+
+    align-self: center;
+    padding: 2em;
+}
+
+#contact{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-top: 2em;
+}
+
+.contactme{
+
+    align-self: center;
+    text-align: center;
+    align-content: center;
+}
+
+.contactico{
+
+    font-size: 2em;
+    
+    
+}
+
+.contact-details{
+
+    margin: 0.3em auto 3em auto;
+    display: flex;
+    
+    justify-content: space-evenly
+}
+
+.fcenter{
+
+    display: inline-block;
+    border-color: #eaafc8;
+}
+
+
+
+
+.email-container, .phone-container, .github-container, .email, .phone, .githubcont{
+
+    margin: 3em 2em 1em 1em;
+    
+}
+
+.email, .phone, .githubcont{
+    color: white;
+}
+
+.email:hover, .githubcont:hover{
+
+    color: var(--primaryColorHighlighted);
+}
+
+.error{
+    color : #ff004d;
+}
+
+
+
+.contact-text{
+
+    position: relative;
+    display: inline-block;
+    text-align: justify;
+    max-width: 60%;
+}
+
+/* Scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+/* Track */
+::-webkit-scrollbar-track {
+background: transparent ;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: -webkit-gradient(linear, left top, right top,  from(#eaafc8), to(#a162e8));
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background:#a162e8;
+}

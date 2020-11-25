@@ -65,7 +65,7 @@ nav{
     flex-direction: column;
     justify-content: space-around;
     padding-bottom: 3em;
-    animation: 3s ease-out 0s 1 mastentry;
+    animation: 2s ease-out 0s 1 mastentry;
 }
 
 #work{
@@ -200,7 +200,7 @@ nav{
     margin-left: 5.5em;
     position: relative;
     max-width: 40%;
-    animation: 2s ease-out 0s 1 mastentry;
+    animation: 1s ease-out 0s 1 mastentry;
     
 }
 

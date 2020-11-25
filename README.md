@@ -1,5 +1,7 @@
 ### Imanpal Singh
-A Programming enthusiast
+A Programming enthusiast 
+
+[Website](https://imanpalsingh.github.io/imanpalsingh/)
 
 ## Interests
 - Machine Learning

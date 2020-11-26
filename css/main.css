@@ -250,7 +250,11 @@ nav{
 
 .navbarlist{
 
-    margin: auto;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        width: 100%;
+        justify-content: center;
 }
 
 .navlink{
@@ -452,7 +456,7 @@ background:var(--purple);
     
     .github-alone{
         
-        font-size: 3vmax;
+        font-size: 3.5vmax;
     }
     
     .iconholder{
@@ -486,18 +490,27 @@ background:var(--purple);
         
         top: auto;
         bottom: 0;
-        white-space: nowrap;
+        justify-content: center;
 
     }
     
     .navico{
         
-        font-size: 3vmax;
+        font-size: 3.5vmax;
     }
 
+  
     .navbaritem{
 
         text-align: center;
+    }
+
+    .navbarlist{
+
+        margin: 0;
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
     }
     
     .section-head{

@@ -1,3 +1,17 @@
+/*
+
+Author : Imanpal Singh <imanpalsingh@gmail.com>
+Date created : 24-11-20
+
+*/
+
+/*
+    Change logs : 
+    
+    26-11-20
+     1) Added media query for phones for responsiveness 
+*/
+
 :root{
     
     --primaryColor : #fff;
@@ -27,14 +41,12 @@ body{
     background-color: var(--background);
     color: var(--primaryColor);
     font-family: 'Poppins', sans-serif;
-
-    
 }
 
 
 nav{
 
-    padding-top: 0.4em;
+    padding-top: 0.4vmax;
     top: 0px;
     width: 100%;
     display: flex;
@@ -52,7 +64,7 @@ nav{
 #about{
 
     display: flex;
-    margin : 8em 3.8em 3em;
+    margin : 8vmax 3.8vmax 3vmax;
     flex-direction: row;
     justify-content: center;
 
@@ -64,7 +76,7 @@ nav{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding-bottom: 3em;
+    padding-bottom: 3vmax;
     animation: 2s ease-out 0s 1 mastentry;
 }
 
@@ -73,7 +85,7 @@ nav{
     background-color: var(--black);
     display: flex;
     flex-direction: column;
-    padding-top: 3em;
+    padding-top: 3vmax;
 }
 
 #contact{
@@ -82,7 +94,7 @@ nav{
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    margin-top: 2em;
+    margin-top: 2vmax;
 }
 
 /* classes */
@@ -90,11 +102,12 @@ nav{
 .bio{
 
     text-align: left;
+    font-size: 1vmax;
 }
 
 .cmp-img{
 
-    font-size: 20em;
+    font-size: 23vmax;
     background: -webkit-gradient(linear, left top, left bottom, from(var(--green)), to(var(--purple)));
     -webkit-background-clip: text;
     background-clip: text;
@@ -106,7 +119,7 @@ nav{
 
 .contact-details{
 
-    margin: 0.3em auto 3em auto;
+    margin: 0.3vmax auto 3vmax auto;
     display: flex;
     
     justify-content: space-evenly;
@@ -125,7 +138,7 @@ nav{
 
 .contact-ico{
 
-    font-size: 2em;
+    font-size: 2vmax;
 
 }
 
@@ -141,7 +154,7 @@ nav{
     position: relative;
     display: inline-block;
     text-align: justify;
-    max-width: 60%;
+    width: 60%;
 }
 
 
@@ -156,7 +169,7 @@ nav{
 
 .email, .email-container, .github-container, .github-cont, .phone, .phone-container{
 
-    margin: 3em 2em 1em 1em;  
+    margin: 3vmax 2vmax 1vmax 1vmax;  
 }
 
 .error{
@@ -171,12 +184,12 @@ nav{
 
 .github-alone{
     
-    font-size: 2.0em;
+    font-size: 2.0vmax;
 }
 
 .github-button{
 
-    padding-right: 0.3em;
+    padding-right: 0.3vmax;
 }
 
 .github-alone:hover, .navlink:hover, .link:hover{
@@ -190,14 +203,14 @@ nav{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 1.5em 12.0em 0.8em 12.0em;
-    font-size: 1.4em;
+    margin: 1.5vmax 12.0vmax 0.8vmax 12.0vmax;
+    font-size: 2.0vmax;
     color : var(--pink);
 }
 
 .introtext{
 
-    margin-left: 5.5em;
+    margin-left: 5.5vmax;
     position: relative;
     max-width: 40%;
     animation: 1s ease-out 0s 1 mastentry;
@@ -218,7 +231,7 @@ nav{
 
 .name{
 
-    font-size: 5.5em;
+    font-size: 6vmax;
     font-family: 'Sacramento', cursive;
 
     background: -webkit-gradient(linear, right bottom, left top, from(var(--primaryColorHighlighted)), to(var(--darkgreen)));
@@ -231,7 +244,7 @@ nav{
 .navbaritem{
 
     display: inline-block;
-    margin: 0.8em 4em;
+    margin: 0.8vmax 4vmax;
 }
 
 .navbarlist{
@@ -241,7 +254,7 @@ nav{
 
 .navlink{
 
-    letter-spacing: 0.2em;
+    letter-spacing: 0.2vmax;
     font-weight: lighter;
     color : var(--primaryColor);
 }
@@ -249,7 +262,7 @@ nav{
 .learnmore{
 
     align-self: center;
-    padding: 2em;
+    padding: 2vmax;
 }
 
 
@@ -259,8 +272,8 @@ nav{
 
 .section-head{
 
-    letter-spacing: 0.2em;
-    font-size: 2.6em;
+    letter-spacing: 0.2vmax;
+    font-size: 2.6vmax;
     color : var(--primaryColorHighlighted);
 
     border: 1px solid;
@@ -287,13 +300,13 @@ nav{
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin-left: 0.2em;
+    margin-left: 0.2vmax;
 }
 
 
 .tagline{
 
-    font-size: 1.4em;
+    font-size: 1.4vmax;
     text-align: left;
 }
 
@@ -302,11 +315,9 @@ nav{
     background-color: inherit;
     border: 1px solid white;
     color:inherit;
-    padding : 0.7em;
-    font-size: 1em;
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
+    padding : 0.7vmax;
+    font-size: 1vmax;
+    float : left;
     cursor: pointer;
 }
 
@@ -323,31 +334,33 @@ nav{
     text-align: center;
     align-self: center;
 
-    max-width: 60%;
+    width: 50%;
     border: 1px solid;
-    border-radius: 0.5em;
+    border-radius: 0.5vmax;
 
     display: inline-block;
     
-    padding : 0em 2em 1.5em 2em;
-    margin-top: 2em;
+    padding : 0vmax 2vmax 1.5vmax 2vmax;
+    margin-top: 2vmax;
   
 }
 
 .workdetail{
 
     text-align: justify;
+    font-size: 1.1vmax;
 }
 
 .workhead{
 
-    font-size: 1.6em;
-    letter-spacing: 0.3em;
+    font-size: 1.8vmax;
+    letter-spacing: 0.3vmax;
 }
 
 .worktitle{
 
-    letter-spacing: 0.2em;
+    letter-spacing: 0.2vmax;
+    font-size: 1.3vmax;
     font-weight: normal;
 }
 
@@ -357,8 +370,13 @@ nav{
 
 .navico{
 
-    font-size: 1.8em;
+    font-size: 1.8vmax;
     -webkit-text-stroke: 1px black;
+}
+
+.name-holder{
+    display: flex;
+    flex-direction: row;
 }
 
 /* Scrollbar */
@@ -392,3 +410,123 @@ background:var(--purple);
         transform: translateY(0);
     }
 }
+
+
+/* For phones */
+@media (min-width : 100px) and (max-width : 900px){
+    
+    
+    #about{
+        
+        flex-wrap: wrap;
+    }
+    
+    #skills{
+        
+        justify-content: space-between;
+        padding-bottom: 9vmax;
+    }
+    
+    .bio{
+        font-size: 1em;
+    }
+    
+    
+    .contact-text{
+        width: 85%;
+    }
+    .contact-details{
+
+        flex-direction: column;
+        margin-bottom: 12vmax;
+    }
+
+    .cmp-img{
+        
+        text-align: center;
+        width: 100%;
+        font-size: 20vmax;
+    }
+    
+    .github-alone{
+        
+        font-size: 2.4vmax;
+    }
+    
+    .iconholder{
+
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        margin: 2vmax 0 2vmax;
+        padding: 0;
+    }
+    
+    .introtext{
+
+        margin: 2vmax 0 0;
+        max-width: 100%;
+    }
+    
+    .name{
+
+        font-size: 12.5vw;
+
+    }
+
+    .name-holder{
+        
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+    
+    nav{
+        
+        top: auto;
+        bottom: 0;
+        white-space: nowrap;
+    }
+    
+    .navico{
+        
+        font-size: 2.4vmax;
+    }
+    
+    .section-head{
+
+        font-size: 3vmax;
+    }
+    
+    .tagline{
+        font-size: 1.2em;
+    }
+    
+    .tagline, .bio{
+        
+        text-align: justify;
+    }
+
+    .viewgithub{
+        font-size: 1.6vmax;
+    }
+
+    .workbody{
+        
+        width: 85%;
+        padding: 2vmax;
+    }
+
+    .workdetail{
+
+        font-size: 1.8vmax;
+    }
+
+    .workhead{
+        font-size: 2.1vmax;
+    }
+
+    .worktitle{
+        font-size: 1.8vmax;
+    }
+
+}
+

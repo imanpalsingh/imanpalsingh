@@ -441,7 +441,7 @@ background:var(--purple);
     }
 
     .sgrad1{
-        padding-left: 0.6vmax;
+        padding-left: 1.5vmax;
     }
     
     
@@ -499,7 +499,7 @@ background:var(--purple);
     .name{
 
         font-size: 16vw;
-        padding-right: 0.6vmax;
+        padding-right: 0.8vmax;
 
     }
 

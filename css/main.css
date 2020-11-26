@@ -245,6 +245,7 @@ nav{
 
     display: inline-block;
     margin: 0.8vmax 4vmax;
+    text-align: center;
 }
 
 .navbarlist{
@@ -451,7 +452,7 @@ background:var(--purple);
     
     .github-alone{
         
-        font-size: 2.4vmax;
+        font-size: 3vmax;
     }
     
     .iconholder{
@@ -459,7 +460,7 @@ background:var(--purple);
         flex-wrap: nowrap;
         justify-content: space-evenly;
         margin: 2vmax 0 2vmax;
-        font-size: 2.1vmax;
+        font-size: 2.3vmax;
         padding: 0;
     }
     
@@ -486,11 +487,17 @@ background:var(--purple);
         top: auto;
         bottom: 0;
         white-space: nowrap;
+
     }
     
     .navico{
         
-        font-size: 2.4vmax;
+        font-size: 3vmax;
+    }
+
+    .navbaritem{
+
+        text-align: center;
     }
     
     .section-head{

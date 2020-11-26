@@ -233,7 +233,7 @@ nav{
 
     font-size: 6vmax;
     font-family: 'Sacramento', cursive;
-
+    padding-right: 0.6vmax;
     background: -webkit-gradient(linear, right bottom, left top, from(var(--primaryColorHighlighted)), to(var(--darkgreen)));
     -webkit-background-clip: text;
     background-clip: text;
@@ -296,6 +296,7 @@ nav{
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    padding-left: 0.6vmax;
     
 }
 
@@ -435,6 +436,10 @@ background:var(--purple);
     .bio{
         font-size: 0.8em;
     }
+
+    .sgrad1{
+        padding-left: 0.6vmax;
+    }
     
     
     .contact-text{
@@ -477,6 +482,7 @@ background:var(--purple);
     .name{
 
         font-size: 16vw;
+        padding-right: 0.6vmax;
 
     }
 

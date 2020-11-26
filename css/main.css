@@ -434,6 +434,7 @@ background:var(--purple);
     
     .contact-text{
         width: 85%;
+        
     }
     .contact-details{
 
@@ -458,6 +459,7 @@ background:var(--purple);
         flex-wrap: nowrap;
         justify-content: space-evenly;
         margin: 2vmax 0 2vmax;
+        font-size: 2.1vmax;
         padding: 0;
     }
     
@@ -469,7 +471,7 @@ background:var(--purple);
     
     .name{
 
-        font-size: 12.5vw;
+        font-size: 16vw;
 
     }
 
@@ -517,15 +519,15 @@ background:var(--purple);
 
     .workdetail{
 
-        font-size: 1.8vmax;
+        font-size: 2vmax;
     }
 
     .workhead{
-        font-size: 2.1vmax;
+        font-size: 2.7vmax;
     }
 
     .worktitle{
-        font-size: 1.8vmax;
+        font-size: 2vmax;
     }
 
 }

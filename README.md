@@ -1,4 +1,4 @@
-# [Imanpal Singh](https://imanpalsingh.github.io/imanpalsingh/)
+# [Imanpal Singh](https://imanpalsingh.vercel.app/)
 
 ![Me programming](https://c.tenor.com/GfSX-u7VGM4AAAAC/coding.gif)
 

@@ -1,19 +1,9 @@
-### Imanpal Singh
-A Programming enthusiast 
+# [Imanpal Singh](https://imanpalsingh.github.io/imanpalsingh/)
 
-[Personal Website](https://imanpalsingh.github.io/imanpalsingh/)
+![Me programming](https://c.tenor.com/GfSX-u7VGM4AAAAC/coding.gif)
 
-## Interests
-- Machine Learning
-- Data Science
-- Generative modelling
-- Project and reusable open source code development
-- Algorithm design and problem solving
-- Web development
-- Embedded system development
+## Stats?
+![Imanpal's GitHub stats](https://github-readme-stats.vercel.app/api?username=imanpalsingh&show_icons=true&theme=radical)
 
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=imanpalsingh&langs_count=8)
 
-<br />
-
-
-<img align="left" alt="codeSTACKr's Github Stats" src="https://github-readme-stats.vercel.app/api?username=imanpalsingh&show_icons=true&hide_border=true" />
